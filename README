@@ -1,7 +1,8 @@
 Usage:
 
-1. start jboss as 7 with Java Enterprise Edition 6 full profile preview, 
-   which includes the technology preview of Java API for REST (JAX-RX):
+1. start jboss as 7(version 7.1.0.Final as tested) with Java Enterprise 
+   Edition 6 full profile preview, which includes the technology preview 
+   of Java API for REST (JAX-RX):
    
    $JBOSS_HOME/bin/./standalone.sh --server-config=standalone-preview.xml
 
@@ -13,4 +14,5 @@ Usage:
 3. go to http://localhost:8080/savara-btm/
    upload a xml bpmn2 file, click "Upload", the corresponding json format
    will be returned.
-   (a simple bpmn2 created by eclipse bpmn2 editor can be found in /src/main/resources folder)
+   (a simple bpmn2 created by eclipse bpmn2 editor can be found in 
+    /src/main/resources folder)
